@@ -1,0 +1,34 @@
+# Case Study: Library Book Management System
+# Problem Statement:
+# A library needs a system to:
+#   1. manage its books
+#   2. track borrowers
+#   3. monitor overdue books
+#   4. handle book search, and
+#   5. inventory updates.
+
+# The system should:
+# 1. Allow adding new books without losing the existing inventory.
+# 2. Store book details such as title, author, genre, and availability status.
+# 3. Allow librarians to display all book records in a structured format.
+# 4. Retrieve borrowing history for any book.
+# 5. If a book title is not found, display a proper message.
+# 6. Identify books marked as "Rare" or "Reference Only" and protect them from being issued or modified.
+# 7. Analyze which genre has the highest number of books.
+# 8. Allow partial title search (e.g., all books with "Data" in the title).
+# 9. Determine the most borrowed book in an optimized way.              counter increment in dictionary "book_borrow_counter"
+# 10. Demonstrate the effect of shallow vs deep copy on book records.
+
+
+--------------------------------------------------------------------------------
+| Requirement          | Structure                                              |
+| -------------------- | ------------------------------------------------------ |
+| Inventory            | List of dictionaries                                   |
+| Storage              | JSON file                                              |
+| Search               | Linear search or filtered list                         |
+| Borrow history       | Nested list inside each book                           |
+| Borrow count         | Dictionary counter                                     |
+| Genre analysis       | Dictionary frequency count                             |
+| Rare books           | Special flag in each book dictionary                   |
+| Shallow vs Deep Copy | Python `copy` module demonstration on loaded inventory |
+--------------------------------------------------------------------------------

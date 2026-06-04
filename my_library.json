@@ -1,0 +1,131 @@
+[
+    {
+        "id": 1,
+        "book_name": "The Night Circus",
+        "author": "Erin Morgenstern",
+        "genre": "Fantasy",
+        "availability_status": true,
+        "available_copies": 3,
+        "book_type": "Hardcover",
+        "borrow_count": 0,
+        "borrowing_history": []
+    },
+    {
+        "id": 2,
+        "book_name": "Project Hail Mary",
+        "author": "Andy Weir",
+        "genre": "Science Fiction",
+        "availability_status": true,
+        "available_copies": 5,
+        "book_type": "Paperback",
+        "borrow_count": 0,
+        "borrowing_history": []
+    },
+    {
+        "id": 3,
+        "book_name": "The Silent Patient",
+        "author": "Alex Michaelides",
+        "genre": "Thriller",
+        "availability_status": true,
+        "available_copies": 1,
+        "book_type": "Hardcover",
+        "borrow_count": 0,
+        "borrowing_history": []
+    },
+    {
+        "id": 4,
+        "book_name": "Atomic Habits",
+        "author": "James Clear",
+        "genre": "Self-Help",
+        "availability_status": true,
+        "available_copies": 4,
+        "book_type": "Paperback",
+        "borrow_count": 3,
+        "borrowing_history": [
+            {
+                "borrower_name": "Zara",
+                "issue_date": "2026-06-03",
+                "due_date": "2026-03-04",
+                "return_date": "2026-06-04"
+            },
+            {
+                "borrower_name": "Rohan",
+                "issue_date": "04-04-2025",
+                "due_date": "04-05-2026",
+                "return_date": null
+            },
+            {
+                "borrower_name": "James",
+                "issue_date": "43-32-6783",
+                "due_date": "32-32-3223",
+                "return_date": "2026-06-04"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "book_name": "Circe",
+        "author": "Madeline Miller",
+        "genre": "Historical Fiction",
+        "availability_status": true,
+        "available_copies": 14,
+        "book_type": "Paperback",
+        "borrow_count": 0,
+        "borrowing_history": []
+    },
+    {
+        "id": 6,
+        "book_name": "Dune",
+        "author": "Frank Herbert",
+        "genre": "Science Fiction",
+        "availability_status": true,
+        "available_copies": 4,
+        "book_type": "Hardcover",
+        "borrow_count": 0,
+        "borrowing_history": []
+    },
+    {
+        "id": 7,
+        "book_name": "Where the Crawdads Sing",
+        "author": "Delia Owens",
+        "genre": "Literary Fiction",
+        "availability_status": true,
+        "available_copies": 2,
+        "book_type": "Paperback",
+        "borrow_count": 0,
+        "borrowing_history": []
+    },
+    {
+        "id": 8,
+        "book_name": "Becoming",
+        "author": "Michelle Obama",
+        "genre": "Memoir",
+        "availability_status": true,
+        "available_copies": 3,
+        "book_type": "Hardcover",
+        "borrow_count": 0,
+        "borrowing_history": []
+    },
+    {
+        "id": 9,
+        "book_name": "The Seven Husbands of Evelyn Hugo",
+        "author": "Taylor Jenkins Reid",
+        "genre": "Historical Fiction",
+        "availability_status": true,
+        "available_copies": 1,
+        "book_type": "Paperback",
+        "borrow_count": 0,
+        "borrowing_history": []
+    },
+    {
+        "id": 10,
+        "book_name": "Klara and the Sun",
+        "author": "Kazuo Ishiguro",
+        "genre": "Science Fiction",
+        "availability_status": true,
+        "available_copies": 1,
+        "book_type": "Hardcover",
+        "borrow_count": 0,
+        "borrowing_history": []
+    }
+]
